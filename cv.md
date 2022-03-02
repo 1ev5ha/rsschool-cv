@@ -21,11 +21,13 @@ Life is one and it is short. It's silly to keep putting things off until later.
 
 ## Skills
 
++ Figma 8/10
 + HTML 5/10
 + CSS 4/10
 + GitHub 3/10
 + PhotoShop 6/10
 + JS 1/10
+
 
 ## Legendary coder =]
 ```
@@ -47,3 +49,8 @@ Freelance. Websites collected on constructors. Tilda, Nethouse.
 
 ## English language - A2
 
+## Hobbies
+- Videogames
+- Desing
+- Music
+- Self-development
