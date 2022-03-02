@@ -43,6 +43,7 @@ Freelance. Websites collected on constructors. Tilda, Nethouse.
 - Belgorod Shukhov State Technological University (2001-2006)
 - GeekBrains (some free courses)
 - Netology (some free courses)
+- Independent study of open access materials
 
 ## English language - A2
 
