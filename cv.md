@@ -5,20 +5,18 @@
 - Mail: 31work@gmail.com or alexey31work@yandex.ru
 - Tel: +7 (951) 130 1441
 - Discord: Vargur#3952
+- Telegram: ...
 
 ## About me 
 
-I have loved the IT industry since childhood. During my school years, I loved creating animations in Macromrdia Dremweawer and writing in HTML.
----
-Adulthood has set priorities in its own way.
----
-The main priority is work in the specialty. In the field of industrial construction. Control engineer.
-Secondary direction: freelancing, web development on constructors (Tilda, Nethouse), SEO-optimization, advertising. For small and medium businesses.
----
+I have loved the IT industry since childhood. During my school years, I loved creating animations in Macromedia Dremweawer and writing in HTML.<br>
+Adulthood has set priorities in its own way.<br>
+The main priority is work in the specialty. In the field of industrial construction. Control engineer.<br>
+Secondary direction: freelancing, web development on constructors (Tilda, Nethouse), SEO-optimization, advertising. For small and medium businesses.<br>
 First, COVID changed the world, burnout at work, and after the military conflict affected my priorities...
 
----
-# Life is one and it is short. It's stupid to keep postponing it.
+
+Life is one and it is short. It's silly to keep putting things off until later.
 ---
 
 ## Skills
