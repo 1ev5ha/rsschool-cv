@@ -3,9 +3,10 @@
 
 - Git: Vargur31rus
 - Mail: 31work@gmail.com or alexey31work@yandex.ru
-- Tel: +7 (951) 130 1441
+- Tel: +7 (910) 737 60 16 (MTS)
+- Telegram: +79107376016
 - Discord: Vargur#3952
-- Telegram: ...
+
 
 ## About me 
 
@@ -21,12 +22,13 @@ Life is one and it is short. It's silly to keep putting things off until later.
 
 ## Skills
 
-+ Figma 8/10
++ JavaScript 1/10
++ CSS 2/10
++ GIT 2/10
 + HTML 5/10
-+ CSS 4/10
-+ GitHub 3/10
-+ PhotoShop 6/10
-+ JS 1/10
++ Figma 7/10
++ PhotoShop 7/10
++ UX/UI
 
 
 ## Legendary coder =]
@@ -38,19 +40,28 @@ class App {
 }
 ```
 ---
-## Experience
-Freelance. Websites collected on constructors. Tilda, Nethouse.
+## Work Experience
+**Main stream**
+* *Industrial engineering. As a Quality Engineer and negotiator* 
+
+**Freelance**
+* *Creation of websites on Tilda and Nethouse constructors +SEO*
+* *Insisted Analytics (Yandex, Google) and advertising companies*
+* *SMM*
 
 ## Education
-- Belgorod Shukhov State Technological University (2001-2006)
-- GeekBrains (some free courses)
-- Netology (some free courses)
-- Independent study of open access materials
+* Html, CSS, - HTML Academy
+* JavaScript, Html, CSS and other - RollingScopes 2021Q1
+* Other Education platforms (EPAM, GeekBrains, Netology, Yandex, Stepik, Hexlet)
+
+**2001-2006** Belgorod Shukhov State Technological University -
+* Road and airfield construction engineer.
+
 
 ## English language - A2
 
 ## Hobbies
-- Videogames
-- Desing
-- Music
+- Videogames (PC, PS)
+- Desing 
+- Music (Spotify member)
 - Self-development
