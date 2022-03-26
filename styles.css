@@ -1,0 +1,101 @@
+html,
+body {
+    height: 100%;
+}
+h1 {
+font-family: 'Press Start 2P';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 30px;   
+}
+h2 {
+font-family: 'Press Start 2P';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 20px;   
+}
+p,
+li {
+font-family: 'M PLUS Code Latin';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+}
+
+.main {
+    
+}
+.wrapper {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+
+.navigation_menu {
+    overflow: hidden;
+}
+
+.two__collums {
+    border: 1px dotted blue;
+    display: flex;
+    
+}
+
+.primary__collums {
+    border: 1px solid red;
+    background-color: #55844D;
+}
+.hero {
+    margin: 0px 10px 0px 10px;
+}
+.heroes_foto {
+    display: flex;
+ border: 1px dotted red;
+ 
+}
+.foto_img {
+ margin: 5%;
+ margin-left: auto;
+ margin-right: auto;
+}
+.skills{
+ margin: 0px 10px 0px 10px;
+ border: 1px solid green;
+}
+
+.education {
+margin: 0px 10px 0px 10px;
+border: 1px solid blue;
+}
+ 
+.second__collums {
+    border: 1px solid green;
+    background-color: #7BB073;
+    max-width: 800px;
+}
+.about_me {
+    margin: 65px;
+}
+.work_expiriens {
+    margin: 65px;
+}
+
+
+
+@media (max-width: 768px) {
+.navigation_menu {
+        
+}  
+.two__collums {
+    border: 1px dotted blue;
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+ }
+}
