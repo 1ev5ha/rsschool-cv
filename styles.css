@@ -85,8 +85,21 @@ border: 1px solid blue;
 .work_expiriens {
     margin: 65px;
 }
-
-
+.footer_wrapper {
+background-color: #55844D;
+max-width: 1200px;
+display: flex;
+justify-content: space-around;     
+}
+.shool {
+border: 1px solid red;  
+}
+.social {
+border: 1px solid blue;
+}
+.classic_contacts {
+border: 1px solid black;
+}
 
 @media (max-width: 768px) {
 .navigation_menu {
