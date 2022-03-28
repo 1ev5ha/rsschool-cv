@@ -16,6 +16,14 @@ font-weight: 400;
 font-size: 20px;
 line-height: 20px;   
 }
+h3 {
+font-family: 'Press Start 2P';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 20px;   
+}
+a,
 p,
 li {
 font-family: 'M PLUS Code Latin';
@@ -24,40 +32,41 @@ font-weight: 700;
 font-size: 18px;
 line-height: 22px;
 }
+a {
+color: black;
+text-decoration: none; 
+font-size: 16px;   
+}
 
-.main {
-    
+.heroes_h1 {
+ margin: 35px;   
 }
 .wrapper {
-    max-width: 1200px;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    min-height: 100%;
+max-width: 1200px;
+margin: auto;
+display: flex;
+flex-direction: column;
+min-height: 100%;
 }
 
 
 .navigation_menu {
-    overflow: hidden;
+background-color: #55844D;
+border-bottom: 1px dotted black;
 }
 
 .two__collums {
-    border: 1px dotted blue;
-    display: flex;
-    
+display: flex;  
 }
 
 .primary__collums {
-    border: 1px solid red;
-    background-color: #55844D;
+background-color: #55844D;
 }
 .hero {
-    margin: 0px 10px 0px 10px;
+margin: 0px 10px 0px 10px;
 }
 .heroes_foto {
-    display: flex;
- border: 1px dotted red;
- 
+display: flex;
 }
 .foto_img {
  margin: 5%;
@@ -65,40 +74,53 @@ line-height: 22px;
  margin-right: auto;
 }
 .skills{
- margin: 0px 10px 0px 10px;
- border: 1px solid green;
+margin: 35px;
 }
 
 .education {
-margin: 0px 10px 0px 10px;
-border: 1px solid blue;
+margin: 35px;
 }
  
 .second__collums {
-    border: 1px solid green;
-    background-color: #7BB073;
-    max-width: 800px;
+background-color: #7BB073;
+max-width: 800px;
 }
 .about_me {
-    margin: 65px;
+margin: 65px;
 }
 .work_expiriens {
-    margin: 65px;
+margin: 65px;
 }
 .footer_wrapper {
 background-color: #55844D;
 max-width: 1200px;
+height: 180px;
 display: flex;
-justify-content: space-around;     
+justify-content: space-around; 
+border-top: 1px dotted black;
 }
-.shool {
-border: 1px solid red;  
+.school {  
+display: flex;
+flex-direction: column;
+margin-top: 20px; 
 }
 .social {
-border: 1px solid blue;
+display: flex;
+flex-direction: column;
+margin-top: 20px; 
+}
+.cont_box {
+padding: 10px; 
+
 }
 .classic_contacts {
-border: 1px solid black;
+display: flex;
+flex-direction: column;
+margin-top: 20px; 
+ 
+}
+.footer_ico {
+margin-right: 10px;   
 }
 
 @media (max-width: 768px) {
@@ -106,9 +128,17 @@ border: 1px solid black;
         
 }  
 .two__collums {
-    border: 1px dotted blue;
-    display: flex;
-    flex-direction: column;
-    background-color: aqua;
+display: flex;
+flex-direction: column;
+background-color: aqua;
  }
+.footer_wrapper {
+height: 420px;
+display: flex;
+flex-direction: column;
+align-items: center;  
+}
+.social {
+margin-right: 70px; 
+}
 }
