@@ -23,9 +23,10 @@ font-weight: 400;
 font-size: 15px;
 line-height: 20px;   
 }
-a,
 p,
-li {
+li,
+.cont_box
+ {
 font-family: 'M PLUS Code Latin';
 font-style: normal;
 font-weight: 700;
@@ -36,6 +37,27 @@ a {
 color: black;
 text-decoration: none; 
 font-size: 16px;   
+}
+.logo {
+width: 30px;
+}
+.link-box {
+font-family: 'Press Start 2P';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 20px;
+list-style-type: none; 
+margin-right: 30px; 
+padding: 5px; 
+}
+.link-ul-box {
+display: flex;
+justify-content: space-between;
+}
+.arrival {
+color: #55844D;
+background-color: black;    
 }
 
 .heroes_h1 {
@@ -48,17 +70,13 @@ display: flex;
 flex-direction: column;
 min-height: 100%;
 }
-
-
 .navigation_menu {
 background-color: #55844D;
 border-bottom: 1px dotted black;
 }
-
 .two__collums {
 display: flex;  
 }
-
 .primary__collums {
 background-color: #55844D;
 }
@@ -76,11 +94,9 @@ display: flex;
 .skills{
 margin: 35px;
 }
-
 .education {
 margin: 35px;
-}
- 
+} 
 .second__collums {
 background-color: #7BB073;
 max-width: 800px;
@@ -111,21 +127,19 @@ margin-top: 20px;
 }
 .cont_box {
 padding: 10px; 
-
 }
 .classic_contacts {
 display: flex;
 flex-direction: column;
 margin-top: 20px; 
- 
 }
 .footer_ico {
 margin-right: 10px;   
 }
 
+/* ------------------------------------------------------ */
 @media (max-width: 768px) {
-.navigation_menu {
-        
+.navigation_menu {        
 }  
 .two__collums {
 display: flex;
@@ -133,12 +147,31 @@ flex-direction: column;
 background-color: aqua;
  }
 .footer_wrapper {
-height: 420px;
+height: 520px;
 display: flex;
 flex-direction: column;
 align-items: center;  
 }
 .social {
 margin-right: 70px; 
+}
+}
+/* ------------------------------------------------------ */
+@media (max-width: 360px) {
+.heroes_h1 {
+ margin-left: 20px; 
+ font-size: 30px;  
+}
+}
+/* ------------------------------------------------------ */
+@media (max-width: 320px) {
+.heroes_h1 {
+ margin-left: 10px; 
+ font-size: 25px;  
+}
+.foto_img {
+height: 250px;
+margin-left: auto;
+margin-right: auto;
 }
 }
