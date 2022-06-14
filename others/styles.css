@@ -59,7 +59,9 @@ border-bottom: 1px dotted black;
 .two__collums {
 display: flex;  
 }
-
+.hero_collumn {
+    max-width: 400px;
+}
 .primary__collums {
 background-color: #55844D;
 }
@@ -84,7 +86,7 @@ margin: 35px;
  
 .second__collums {
 background-color: #7BB073;
-max-width: 800px;
+width: 100%;
 }
 .about_me {
 margin: 65px;
@@ -123,7 +125,10 @@ margin-top: 20px;
 .footer_ico {
 margin-right: 10px;   
 }
-
+.code {
+  display: flex;  
+  border: 1px solid red;
+}
 @media (max-width: 768px) {
 .navigation_menu {
         
