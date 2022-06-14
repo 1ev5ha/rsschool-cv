@@ -21,6 +21,7 @@
 	    	<nav class="navigation_menu">
 	    		<ul>
 			         <li><a href="#contacts">Contacts</a></li>
+					 <li><a href="./others/index.html">Other details</a></li>
 		        </ul>
 	       </nav>
 	   </div>
@@ -40,8 +41,8 @@
 	     				<section class="skills">
 	     					<h2>Skills</h2>
 	     					<ul>
-	     						<li>JavaScript - 1/10</li>
-	     						<li>CSS/HTML/SCSS - 4/10</li>
+	     						<li>JavaScript - <text id="blink">▊</text>/10</li>
+	     						<li>CSS/HTML/SCSS - 5/10</li>
 	     						<li>Git - 4/10</li>
 	     						<li>Figma - 7/10</li>
 	     						<li>Photoshop - 8/10</li>
@@ -73,18 +74,23 @@
 	     				</section>
 	     				<section class="work_expiriens">
 	     					<h2>Work expiriens</h2>
-	     					
-	     						<h3>Main stream</h3>
-                                 <p> Industrial engineering. As a Quality Engineer and negotiator.
-	     					</p>
-	     					
+	     					<h3>Main stream</h3>
+                                 <p> Industrial engineering. As a Quality Engineer and negotiator.</p>
 	     						<h3>Freelance</h3>
-	     						<p>Creation of websites on Tilda and Nethouse constructors +SEO
-Insisted Analytics (Yandex, Google) and advertising companies
-SMM
-	     					</p>
-	     					
+	     						 <p>Creation of websites on Tilda and Nethouse constructors +SEO
+                                  Insisted Analytics (Yandex, Google) and advertising companies SMM</p>
 	     				</section>
+						<!-- <section class="work_expiriens">
+							<h2>Amazing c0d3r...</h2>				
+                             <pre>
+                             <code>
+                                setInterval(function(){
+                                var a = document.getElementById('blink').style.opacity || 1;
+                                document.getElementById('blink').style.opacity = ((parseInt(a))?0:1);
+                                },1e3);
+                             </code>
+                             </pre>
+						</section>-->
 	     			</div>	
 	     		</div>
 	      	</div>
@@ -92,19 +98,20 @@ SMM
 	<footer class="footer">
 			<div class="footer_wrapper" id="contacts">
 				<div class="school">
-		<a class="cont_box" href="https://github.com/vargur31rus"><img class="footer_ico" src="./img/logo_git.png" alt="github_logo">my Git Hub</a>
-		<a class="cont_box" href="https://rs.school/index.html"><img class="footer_ico" src="./img/logo_rsschool.png" alt="rs.school_logo">my education</a>
+		           <a class="cont_box" href="https://github.com/vargur31rus"><img class="footer_ico" src="./img/logo_git.png" alt="github_logo">my Git Hub</a>
+		           <a class="cont_box" href="https://rs.school/js-stage0/"><img class="footer_ico" src="./img/logo_rsschool.png" alt="rs.school_logo">my education</a>
 		        </div>
-		        <div class="social">
-		<a class="cont_box" href="#"><img class="footer_ico" src="./img/ico_teleg.png" alt="in Telegram">Telegram</a>
-		<a class="cont_box" href="#"><img class="footer_ico" src="./img/ico_vk.png" alt="my page vKontakte">vKontakte</a>
-		<a class="cont_box" href="#"><img class="footer_ico" src="./img/ico_wup.png" alt="WhatsApp">WhatsApp</a>
-		        </div>
+		             <div class="social">
+		                <a class="cont_box" href="https://t.me/cr3a7or"><img class="footer_ico" src="./img/ico_teleg.png" alt="in Telegram">Telegram</a>
+		                <a class="cont_box" href="#"><img class="footer_ico" src="./img/ico_vk.png" alt="my page vKontakte">vKontakte (not add)</a>
+		                <a class="cont_box" href="#"><img class="footer_ico" src="./img/ico_wup.png" alt="WhatsApp">WhatsApp (not add)</a>
+		             </div>
 		          <div class="classic_contacts">
-		<a class="cont_box" href="#"><img class="footer_ico" src="./img/ico_phone.png" alt="phone">+7 (910) 737 60 XX</a>
-		<a class="cont_box" href="#"><img class="footer_ico" src="./img/ico_mail.png" alt="mail">googlemail@gmail.com</a>
+		               <a class="cont_box" href="#"><img class="footer_ico" src="./img/ico_phone.png" alt="phone">+7 (910) 737 XX XX</a>
+		               <a class="cont_box" href="#"><img class="footer_ico" src="./img/ico_mail.png" alt="mail">googlemail@gmail.com</a>
 				  </div>
 		</div>
 	</footer>
+     <script src="blink.js"></script>
 </body>
 </html>
