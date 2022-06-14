@@ -17,7 +17,7 @@ font-weight: 400;
 font-size: 20px;
 line-height: 20px;   
 }
-h3 {
+.navilink, h3 {
 font-family: 'Press Start 2P';
 font-style: normal;
 font-weight: 400;
@@ -55,7 +55,20 @@ min-height: 100%;
 background-color: #55844D;
 border-bottom: 1px dotted black;
 }
-
+.link_wrap {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+}
+.link {
+margin-left: 50px;
+list-style-type: none;    
+}
+.link:hover {
+  text-decoration: solid underline 4px;
+}
 .two__collums {
 display: flex;  
 }
@@ -127,7 +140,6 @@ margin-right: 10px;
 }
 .code {
   display: flex;  
-  border: 1px solid red;
 }
 @media (max-width: 768px) {
 .navigation_menu {
