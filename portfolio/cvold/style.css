@@ -1,0 +1,67 @@
+body {
+    background-color: #a7a7cf;        /*фоновый цвет полотна, всего боди, тела*/
+  }
+
+.carrier-container-centered {           /*наш контейнер из html*/
+    margin: auto;                       /*авто по центру*/
+    width:  1024px;                     /*разрешение центр контейнера, 1920 например шире, хорошо для HD. Если 640 то старым мониторам норм и мобильникам.*/
+    font-family: 'Roboto', sans-serif;  /* font-family: "OpenSans", sans-serif;  */
+    font-size: 18px;
+    line-height: 1.5;
+    background-color: #c4bcf3;
+  }
+
+  .two-columns {                        /* Макет из двух колонок в HTML строка 20 */
+    display: flex;
+  }
+  
+  .left-column {                        /* левая колонка, размер в процентах 40 */
+    width: 40%;
+  }
+  
+  .right-column {                       /* левая колонка, размер в процентах 40 */
+    width: 60%;
+  }
+
+  header {                              /* кусок кода там где моя фотка, отступ 30, текст по центру */
+    padding: 30px;
+    text-align: center;
+  }
+
+  header h1 {
+    text-transform: uppercase;            /* делаем буквы одного размера Alexey Vasilenko */
+  }
+
+  header h2 {
+    text-transform: uppercase;             /* делаем буквы одного размера Beginner Frontend Developer */
+  }
+
+  main {
+    padding: 0 40px;
+  }
+
+  main h3 {                                  /* блок с заголовкаи Контакты, Скилс, Английский */
+    text-align: center;                      /* блок размешаем по центру */
+    text-transform: uppercase;               /* названия одного размера */
+  }
+
+  .contacts li p {                            /* блок li и p, иконки и контакты выстраиваются в одну линию  */
+   display: inline; 
+  }
+
+ .right-column {
+     padding: 40px 40px 10px 10px;           /* подгоняем содержание всей правой колонки */
+ }
+
+  pre {
+    margin-top: 25px;                        /* тут подгоняю размещение кода относительно другого содержимого */
+    padding-left: 25px;  
+    margin-left: -150px;
+  } 
+
+  footer {                                   /* раскидываем подвал*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+  }
