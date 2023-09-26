@@ -387,7 +387,7 @@ padding: calc(100vw - 90%);
      margin: 0 auto;
        }
 .img_smallavatar {
-width: calc(100vw - 10%);
+width: 300px;
 height: auto;
 margin: 0 auto;
 }
