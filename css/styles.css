@@ -387,12 +387,10 @@ padding: calc(100vw - 90%);
      margin: 0 auto;
        }
 .img_smallavatar {
-     width: calc(100vw - 50%);
-     height: auto;
-    border-radius: 100%;
-    margin: 0 auto;
-        
-    }
+width: calc(100vw - 10%);
+height: auto;
+margin: 0 auto;
+}
 
 .h1{
         font-size: calc(40px + 16 * (100vw/917));
