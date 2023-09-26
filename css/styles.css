@@ -151,6 +151,9 @@ margin: 5px;
 }
 .logo_svg {
 color: #B3C8DD;
+border: 1px solid #B3C8DD;
+border-radius: 50%;
+width: 70%;  
 }
 /*-----------LINK----------*/
 .f_link {
@@ -180,20 +183,17 @@ color: #B3C8DD;
    padding: 0px 30px;
    align-items: center;
    justify-content: space-between;
-   height: 40px; /*задан минимальный размер плашки меню*/
+   height: 50px; /*задан минимальный размер плашки меню*/
    }                     
-   .header__logo {
-      /* border-radius: 50%;
-       background-color: chartreuse;*/
+  .header__logo {
+      border-radius: 50%;
+       background-color: c#03214e;
        position: relative;
        z-index: 5;
-     /*  width: 40px;
+    /* width: 40px;
        height: 40px;*/
    }
-   .logo_svg {
-   width: 50%;    
-   }
-   
+    
    .menu__icon {
    display: none;
    }
@@ -332,7 +332,7 @@ body._pc .menu__list > li:hover .menu__sub-list { /*показываем вло�
          width: 100%;
          top: 0;
          left: 0;
-         height: 40px;
+         height: 50px;
          background-color: #B3C8DD;
          z-index: 10;
     }
@@ -382,7 +382,7 @@ padding: calc(100vw - 90%);
 
 
 .img_avatar {
-     width: calc(100vw - 10%);
+     width: calc(100vw - 20%);
      height: auto;
      margin: 0 auto;
        }
